@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2823,6 +2823,90 @@ Mating wall wart : TOL-00298 (and others)</description>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GNDBREAK" pad="GNDBREAK"/>
 <connect gate="G$1" pin="PWR" pad="PWR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC16F18855-SOIC28">
+<gates>
+<gate name="G$1" symbol="PIC16F18855-28PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-28">
+<connects>
+<connect gate="G$1" pin="*MCLR/VPP/RE3" pad="1"/>
+<connect gate="G$1" pin="RA0" pad="2"/>
+<connect gate="G$1" pin="RA1" pad="3"/>
+<connect gate="G$1" pin="RA2" pad="4"/>
+<connect gate="G$1" pin="RA3" pad="5"/>
+<connect gate="G$1" pin="RA4" pad="6"/>
+<connect gate="G$1" pin="RA5" pad="7"/>
+<connect gate="G$1" pin="RA6" pad="10"/>
+<connect gate="G$1" pin="RA7" pad="9"/>
+<connect gate="G$1" pin="RB0" pad="21"/>
+<connect gate="G$1" pin="RB1" pad="22"/>
+<connect gate="G$1" pin="RB2" pad="23"/>
+<connect gate="G$1" pin="RB3" pad="24"/>
+<connect gate="G$1" pin="RB4" pad="25"/>
+<connect gate="G$1" pin="RB5" pad="26"/>
+<connect gate="G$1" pin="RB6" pad="27"/>
+<connect gate="G$1" pin="RB7" pad="28"/>
+<connect gate="G$1" pin="RC0" pad="11"/>
+<connect gate="G$1" pin="RC1" pad="12"/>
+<connect gate="G$1" pin="RC2" pad="13"/>
+<connect gate="G$1" pin="RC3" pad="14"/>
+<connect gate="G$1" pin="RC4" pad="15"/>
+<connect gate="G$1" pin="RC5" pad="16"/>
+<connect gate="G$1" pin="RC6" pad="17"/>
+<connect gate="G$1" pin="RC7" pad="18"/>
+<connect gate="G$1" pin="VDD" pad="20"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="G$1" pin="VSS_2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC18LF25K50-SOIC28">
+<gates>
+<gate name="G$1" symbol="PIC18F25K50-28PIN" x="7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOIC-28">
+<connects>
+<connect gate="G$1" pin="*MCLR/VPP/RE3" pad="1"/>
+<connect gate="G$1" pin="D+" pad="16"/>
+<connect gate="G$1" pin="D-" pad="15"/>
+<connect gate="G$1" pin="OSC1/CLKIN/RA7" pad="9"/>
+<connect gate="G$1" pin="OSC2/CLKOUT/RA6" pad="10"/>
+<connect gate="G$1" pin="RA0/AN0/C12IN0-" pad="2"/>
+<connect gate="G$1" pin="RA1/AN1/C12IN1-" pad="3"/>
+<connect gate="G$1" pin="RA2/AN2/VREF-/C2IN+" pad="4"/>
+<connect gate="G$1" pin="RA3/AN3/VREF+/C1IN+" pad="5"/>
+<connect gate="G$1" pin="RA4/T0CKI/C1OUT" pad="6"/>
+<connect gate="G$1" pin="RA5/AN4/*SS/HLVDIN/C2OUT" pad="7"/>
+<connect gate="G$1" pin="RB0/AN12/SRI/FLT0/SDI/SDA/INT0" pad="21"/>
+<connect gate="G$1" pin="RB1/INT1/AN10/C12IN3-/P1C" pad="22"/>
+<connect gate="G$1" pin="RB2/INT2/AN8/P1B" pad="23"/>
+<connect gate="G$1" pin="RB3/AN9/C12IN2-/CCP2" pad="24"/>
+<connect gate="G$1" pin="RB4/AN11/P1D/IOCB4" pad="25"/>
+<connect gate="G$1" pin="RB5/AN13/T1G/IOCB5" pad="26"/>
+<connect gate="G$1" pin="RB6/IOCB6/PGC" pad="27"/>
+<connect gate="G$1" pin="RB7/IOCB7/PGD" pad="28"/>
+<connect gate="G$1" pin="RC0/SOSCO/T1CKI/T3CKI/T3G/IOCC0" pad="11"/>
+<connect gate="G$1" pin="RC1/CCP2/SOSCI/IOCC1" pad="12"/>
+<connect gate="G$1" pin="RC2/AN14/CTPLS/CCP1/P1A/IOCC2" pad="13"/>
+<connect gate="G$1" pin="RC6/AN18/TX/CK/IOCC6" pad="17"/>
+<connect gate="G$1" pin="RC7/AN19/RX/DT/IOCC7" pad="18"/>
+<connect gate="G$1" pin="VDD" pad="20"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="G$1" pin="VSS_2" pad="8"/>
+<connect gate="G$1" pin="VUSB3V3" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
