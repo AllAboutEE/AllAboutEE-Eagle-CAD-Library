@@ -3240,7 +3240,7 @@ Mating wall wart : TOL-00298 (and others)</description>
 <gate name="G$1" symbol="MOSFET_NCHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="2N7002-7-F" package="SOT23">
+<device name="2N7002-7-F" package="SOT23A">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
